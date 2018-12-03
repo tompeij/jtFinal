@@ -20,7 +20,7 @@ get_header('33'); ?>
 		while ( have_posts() ) : the_post();
 
 			// Include the page content template.
-			get_template_part( 'template-parts/content', 'page' );
+			get_template_part( 'template-parts/content', '33' );
 
 			// If comments are open or we have at least one comment, load up the comment template.
 			if ( comments_open() || get_comments_number() ) {
