@@ -1,0 +1,27 @@
+/*
+Theme Name: Twenty Sixteen Child Theme
+Theme URI:
+Description: A child theme of Twenty Sixteen
+Author: Jason Thompson
+Template: twentysixteen
+Version: 0.1.0
+*/
+
+/* Reduce Blog Post Entry Title size */
+
+.entry-title {
+  font-size: 1.5rem;
+}
+
+/* Reduce previous and next font size */
+
+.post-navigation {
+  border-top: 2px solid #d0d0d0;
+  border-bottom: 2px solid #d0d0d0;
+}
+
+/* Reduce hr thickness and change color for previous and next */
+
+.post-navigation .post-title {
+  font-size: 1rem;
+}
