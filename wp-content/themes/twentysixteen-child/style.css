@@ -20,6 +20,10 @@ Version: 0.1.0
   border-bottom: 2px solid #d0d0d0;
 }
 
+.post-navigation div + div {
+  border-top: 2px solid #d0d0d0;
+}
+
 /* Reduce hr thickness and change color for previous and next */
 
 .post-navigation .post-title {
@@ -30,4 +34,10 @@ Version: 0.1.0
 
 .widget {
   border-top: 2px solid #d0d0d0;
+}
+
+/* match font size to body text */
+
+.site-info p {
+  font-size: 1rem;
 }
